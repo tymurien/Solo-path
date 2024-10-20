@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solopath | Self Discovery Questions</title>
+    <link rel="icon" type="image/svg+xml" href="Group 31.png" />
+    <link rel="stylesheet" href="questions.css" />
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="Index.html"><img class="navimg" src="Logo.svg" alt="Logo" /></a>
+        <div class="navdiv">
+            <a class="navli" href="About.html">About project</a>
+            <a class="navli2" href="">Support us</a>
+        </div>
+    </div>
+    <div class="form-container">
+        <form class="question-form">
+            <img class="img" src="" alt="Question Image" id="question-image" />
+            <h2 class="mainh" id="question-text"></h2>
+            <div id="formgroup">
+                <input
+                    type="text"
+                    class="answer"
+                    name="answer"
+                    placeholder="Type your answer here"
+                    required
+                    autocomplete="off"
+                />
+            </div>
+            <button type="button" id="next-button">Next Question</button>
+        </form>
+    </div>
+    <div class="results-container" style="display: none;">
+        <h2 class="thank-you-message" id="thank-you-message"></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
